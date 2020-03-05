@@ -1,1 +1,41 @@
-type ; shit in ; 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>	Hello!</title>
+	<meta http-equiv="content-type"
+		content="text/html;charset=utf-8" />
+</head>
+
+<body>
+<!--This is a comment. It won't show up in your browser, only in the page source-->
+  <h1> Howdy, y'all! My name is Lillie Hegeman.</h1>
+	<p>lmhxn2@mail.missouri.edu</p>
+  <p>(816)244-7488</p>
+  <p> I am from a small farm town of 124 people in northwest Missouri called Cosby.</p>
+  <p> We have lots of cows, and I have learned a few things over the years.</p>
+  <p> Where do you think cows go on Friday nights?</p>
+  <p> Haha! They go to the moo-vies!</p>
+  <p> Alright...I know that was lame.</p>
+  <p>But, in all seriousness, I am studying data journalism at the University of Missouri School of Journalism.</p>
+  <p>And I am learning how to build websites with HTML and CSS.</p>
+  <p>
+    <a href="mailto:lmhxn2@mail.missouri.edu">
+      <img src="Profile Picture.jpg" width="300px" alt="A picture of me in Europe" />
+    </a>
+  </p>
+  <a href="http://github.com/J4502-ss20"> A link to GitHub </a>
+
+  <ul>
+    <li><a href="https://margaretsmuse.com/" target="_blank">A link to Lillie's personal blog</a></li>
+    <li><a href="https://lilliehegeman.news.blog/" target="_blank">A link to Lillie's news portfolio and blog</a></li>
+    <li><a href="xhtml_template.html" target="_blank">A link to a page in my site</a></li>
+    <li><a href="index2.html" target="_blank">A link to a third page in my site</a></li>
+  </ul>
+
+</body>
+
+
+</html>
