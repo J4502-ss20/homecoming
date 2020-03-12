@@ -71,3 +71,34 @@ h2 {
 #sidebar {
   text-decoration: none;
 }
+
+/* FLEXBOX */
+.container li {
+  list-style-type: none;
+	width: 250px;
+	height: 250px;
+}
+
+.container ul {
+	width: 250px;
+	margin-right: 20px;
+	padding: 10px;
+	background-color: #d6d6d6;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px;
+	list-style: none;
+	background-color: #f0f0f0;
+}
+
+@media all and (min-width: 1000px) {
+  .content    { flex: 2; }
+  .flex-item-1 { order: 1; flex: 1;}
+  .flex-item-2 { order: 2; flex: 1;}
+}
