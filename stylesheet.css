@@ -85,6 +85,11 @@ h2 {
 	background-color: #f0f0f0;
 }
 
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .container li {
   list-style-type: none;
 	width: 250px;
