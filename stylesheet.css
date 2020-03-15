@@ -83,6 +83,7 @@ h2 {
 
 .body {
   display: flex;
+  width: 1000px;
   justify-content: flex-start;
   flex-direction: column;
   background-color: #d6d6d6;
