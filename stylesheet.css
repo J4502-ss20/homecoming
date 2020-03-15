@@ -102,7 +102,7 @@ h2 {
 .container li {
   list-style-type: none;
 	width: 250px;
-	height: 250px;
+	height: 315px;
 }
 
 .container ul {
@@ -110,9 +110,4 @@ h2 {
   margin-right: 20px;
   padding: 10px;
 	background-color: #d6d6d6;
-}
-
-.center {
-  display: flex;
-  align-items: center;
 }
