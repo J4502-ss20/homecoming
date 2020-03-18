@@ -81,17 +81,10 @@ h2 {
   background-color: #f0f0f0;
 }
 
-.body {
-  display: flex;
-  width: 1000px;
-  justify-content: flex-start;
-  flex-direction: column;
-  background-color: #d6d6d6;
-  padding: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+@media (min-widt:1000px) {
+  .container {
+    flex-direction: row;
+  }
 }
 
 .story-1 {
@@ -169,21 +162,8 @@ h5 {
   margin-left: 20px;
 }
 
-.sidebar {
-  text-decoration: none;
-  display: flex;
-  justify-content: flex-end;
-}
-
 .container li {
   list-style-type: none;
 	width: 250px;
 	height: 315px;
-}
-
-.container ul {
-	width: 250px;
-  margin-right: 20px;
-  padding: 10px;
-	background-color: #d6d6d6;
 }
