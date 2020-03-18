@@ -51,9 +51,6 @@ h2 {
   background-color: #363636;
 }
 
-
-
-
 .nav {
   display: flex;
   flex-direction: column;
@@ -135,12 +132,7 @@ h4 {
 
 .story-2 a {
   color: #000000;
-}
-
-.story-2 a:link, .nav a:visited {
-    color: #000000;
-    font-weight: bold;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .story-2 a:hover, .nav a:active {
@@ -155,12 +147,7 @@ h4 {
 
 .story-3 a {
   color: #000000;
-}
-
-.story-3 a:link, .nav a:visited {
-    color: #000000;
-    font-weight: bold;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .story-3 a:hover, .nav a:active {
