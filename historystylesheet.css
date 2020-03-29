@@ -67,6 +67,7 @@ h2 {
   margin: 5px;
 }
 
+
 @media (min-width: 1000px) {
   .nav {
     flex-direction: row;
