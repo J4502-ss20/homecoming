@@ -104,6 +104,11 @@ h2 {
   height: auto;
 }
 
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
 .item-1 {
   display: flex;
   flex-wrap: wrap;
