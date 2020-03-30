@@ -251,3 +251,13 @@ h6 {
 .footer li {
   list-style-type: none;
 }
+
+.blurbContainer {
+    position: absolute;
+    padding: auto;
+    margin: auto;
+}
+.mySlides {
+    float: right;
+
+}
