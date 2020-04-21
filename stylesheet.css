@@ -82,7 +82,7 @@ nav {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   margin-left: 20px;
   margin-right: 20px;
   padding: 20px;
@@ -172,6 +172,11 @@ h6 {
 
 .item-4 a:hover, .nav a:active {
   color: #F1B82D;
+}
+
+.sidebar-1, .sidebar-2 {
+  display: flex;
+  justify-content: center;
 }
 
 .sidebar-1 li {
