@@ -173,6 +173,7 @@ h6 {
 .sidebar-1, .sidebar-2 {
   display: flex;
   justify-content: center;
+  font-family: 'Domine', 'Merrifweather', serif;
 }
 
 .sidebar-1 li {
@@ -241,6 +242,10 @@ h6 {
 @media screen and (min-width: 550px) {
   br {
     display: none;
+  }
+
+  .body img {
+    max-width: 450px;
   }
 
   .item-2 img {
@@ -332,7 +337,7 @@ h6 {
 
   .menu-trigger {
   display: none;
-
+  }
 }
 
 @media screen and (min-width: 1000px) {
