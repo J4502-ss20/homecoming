@@ -1,5 +1,5 @@
 html {
-  font-size: 125%;
+  font-size: 100%;
 }
 
 .header {
@@ -87,7 +87,6 @@ nav {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin-left: 20px;
   margin-right: 20px;
   padding: 20px;
@@ -244,8 +243,12 @@ h6 {
     display: none;
   }
 
+  .body {
+    width: 100%;
+  }
+
   .body img {
-    max-width: 450px;
+    max-width: 600px;
   }
 
   .item-2 img {
