@@ -48,6 +48,7 @@ nav {
 .nav a {
   color: #ffffff;
   text-decoration: none;
+  font-family: 'Domine', 'Merrifweather', serif;
   padding: 20px 30px;
 }
 
@@ -71,6 +72,10 @@ nav {
   font-size: 1.75em;
   width: 2em;
   margin-left: 10px;
+}
+
+.body {
+  font-family: 'Domine','Merriweather', serif;
 }
 
 .body a {
@@ -106,9 +111,6 @@ nav {
 }
 
 .item-2 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   border-bottom: 1px solid black;
   margin-bottom: 10px;
 }
@@ -129,9 +131,6 @@ h4 {
 }
 
 .item-3 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   border-bottom: 1px solid black;
   margin-bottom: 10px;
 }
@@ -152,9 +151,6 @@ h5 {
 }
 
 .item-4 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   border-bottom: 1px solid black;
   margin-bottom: 10px;
 }
@@ -185,6 +181,10 @@ h6 {
 	height: 275px;
 }
 
+.sidebar-1 ul {
+  padding: 0;
+}
+
 .flex-item-3 {
   display: flex;
   justify-content: center;
@@ -204,9 +204,13 @@ h6 {
   list-style-type: none;
 }
 
+.sidebar-2 ul {
+  padding: 0;
+}
+
 .footer {
   background-color: #F1B82D;
-  font-family: Georgia, "Times New Roman", sans-serif;
+  font-family: Helvetica;
   font-size: 0.8em;
   border-top: 1px solid black;
   margin-right: 20px;
@@ -228,13 +232,13 @@ h6 {
   max-width: 200px;
 }
 
-@media (max-width: 200px) {
+@media screen and (max-width: 200px) {
   br {
     display: none;
   }
 }
 
-@media (min-width: 550px) {
+@media screen and (min-width: 550px) {
   br {
     display: none;
   }
@@ -257,16 +261,14 @@ h6 {
 
 }
 
-@media (min-width: 800px) {
+@media screen and (min-width: 800px) {
   .item-1 {
     display: flex;
-    flex-direction: row;
     margin-bottom: 20px;
   }
 
   .item-1 img {
     display: flex;
-    justify-content: flex-start;
     max-width: 200px;
   }
 
@@ -286,7 +288,6 @@ h6 {
 
   .media-body-1 {
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
     margin-left: 20px;
   }
@@ -334,7 +335,7 @@ h6 {
 
 }
 
-@media (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
 
   .container {
     display: grid;
@@ -368,4 +369,49 @@ h6 {
   .menu-trigger {
   display: none;
 }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .item-2 {
+    display: flex;
+  }
+
+  .item-2 img {
+    display: flex;
+  }
+
+  .media-body-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .item-3 {
+    display: flex;
+  }
+
+  .item-3 img {
+    display: flex;
+  }
+
+  .media-body-3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .item-4 {
+    display: flex;
+  }
+
+  .item-4 img {
+    display: flex;
+  }
+
+  .media-body-4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
 }
