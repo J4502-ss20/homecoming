@@ -4,7 +4,7 @@ $(document).ready(function() {
   });//end slideToggle
 
   $(window).resize(function() {
-      if ( $(window).width() > 1000 ) {
+      if ( $(window).width() > 800 ) {
     $('.nav').removeAttr('style');
       }
     });//end resize
