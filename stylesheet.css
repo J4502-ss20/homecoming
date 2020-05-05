@@ -235,9 +235,23 @@ h6 {
     padding: auto;
     margin: auto;
 }
-.mySlides {
+/* .mySlides {
     float: left;
 }
+^^^ Removed this as part of fixing slideshow
+*/
+
+.w3-display-right {
+  float: right;
+}
+/* ^^^ Added this to make right arrow button float right */
+
+.w3-content {
+  width: 600px;
+}
+
+/* ^^^ Added this to contain buttons to width of slideshow */
+
 
 .flex-item-1, .flex-item-2 {
   max-width: 200px;
