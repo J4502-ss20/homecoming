@@ -236,11 +236,12 @@ h6 {
     margin: auto;
 }
 .mySlides {
-    float: right;
+    float: left;
+    width: 50%;
 }
 
 .flex-item-1, .flex-item-2 {
-  max-width: 200px;
+  max-width: 100px;
 }
 
 @media screen and (max-width: 200px) {
