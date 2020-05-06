@@ -113,7 +113,14 @@ nav {
 
 .section-1 {
   max-width: 700px;
+}
 
+.ribbon {
+  width: 150px;
+}
+
+.connect-photo {
+  max-width: 600px;
 }
 
 .item-1 {
@@ -285,12 +292,8 @@ h6 {
     width: 100%;
   }
 
-.section-1 {
-  width: 80%;
-}
-
-  .body img {
-    max-width: 600px;
+  .section-1 {
+    width: 80%;
   }
 
   .item-2 img {
