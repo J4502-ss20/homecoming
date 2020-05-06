@@ -187,6 +187,15 @@ h6 {
   color: #F1B82D;
 }
 
+h7 {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 10px;
+}
+
 .sidebar-1, .sidebar-2 {
   display: flex;
   justify-content: center;
@@ -248,22 +257,15 @@ h6 {
 ^^^ Removed this as part of fixing slideshow
 */
 
-.w3-display-right {
-  float: right;
-}
 /* ^^^ Added this to make right arrow button float right */
 
 .w3-content {
   display: flex;
   justify-content: center;
-  width: 1000px;
+  width: 100%;
 }
 
 /* ^^^ Added this to contain buttons to width of slideshow */
-
-.w3-center h2 {
-  font-size: 5em;
-}
 
 .flex-item-1, .flex-item-2 {
   max-width: 200px;
@@ -315,6 +317,10 @@ h6 {
 
   .sidebar-2 img {
     max-width: 200px;
+  }
+
+  h7 {
+    font-size: 30px;
   }
 
 }
@@ -420,6 +426,10 @@ h6 {
   .menu-trigger {
   display: none;
 }
+
+  h7 {
+    font-size: 40px;
+  }
 
 }
 
