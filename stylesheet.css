@@ -254,11 +254,16 @@ h6 {
 /* ^^^ Added this to make right arrow button float right */
 
 .w3-content {
-  width: 600px;
+  display: flex;
+  justify-content: center;
+  width: 1000px;
 }
 
 /* ^^^ Added this to contain buttons to width of slideshow */
 
+.w3-center h2 {
+  font-size: 5em;
+}
 
 .flex-item-1, .flex-item-2 {
   max-width: 200px;
