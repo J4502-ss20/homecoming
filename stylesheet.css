@@ -111,12 +111,12 @@ nav {
   height: auto;
 }
 
-.section-1 {
-  max-width: 700px;
-}
-
 .ribbon {
   width: 150px;
+}
+
+.section-1 {
+  max-width: 700px;
 }
 
 .connect-photo {
