@@ -7,8 +7,12 @@
   <title> The Columbia Missourian - Homecoming News Page </title>
   <meta http-equiv="content-type"
     content="text/html;charset=utf-8" />
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,600,700&display=swap" rel="stylesheet.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Merriweather:wght@400;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="menu.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -16,18 +20,23 @@
     <h1>MISSOURIAN</h1>
     <h2>Homecoming News</h2>
   </div>
+    <nav>
+      <a class="menu-trigger" href="#">&#9776;</a>
       <ul class="nav">
-        <li class="page-1"><a href="home.html">Home</a></li>
+        <li class="page-1"><a href="index.html">Home</a></li>
         <li class="page-2"><a href="news.html">News</a></li>
         <li class="page-3"><a href="events.html">Events</a></li>
         <li class="page-4"><a href="history.html">History</a></li>
         <li class="page-5"><a href="chthrills.html">Cheap-Thrills</a></li>
         <li class="page-6"><a href="connect.html">Connect</a></li>
       </ul>
+    </nav>
       <div class="container">
         <div class="body">
           <div class="item-1">
-            <img src="homecomingprint.png" width="300px" alt="homecoming print page"/>
+            <div>
+              <img src="homecomingprint.png" alt="homecoming print page" class="responsive"/>
+            </div>
             <div class="media-body-1"/>
               <h3>A complete guide to MU's 2019 Homecoming</h3>
               <p>State of the University Address 9 a.m. Friday, Oct. 11 Busch Auditorium, Cornell Hall Tune in in-person or via Facebook.com/Mizzou as Chancellor Alexander Cartwright shares important updates on the university.</p>
@@ -36,45 +45,59 @@
             </div>
           </div>
           <div class="item-2">
-            <img src="tridirectors.jpg" width="800px" alt="tridirectors image"/>
-            <div class="media-body-2">
-              <a href="https://www.columbiamissourian.com/special_section/homecoming/tri-directors-busy-with-homecoming-prep/article_25a60b40-d4d3-11e9-ac91-1f99a2d4dc34.html" target="_blank"><h4>Tri-directors busy with Homecoming prep</h4></a>
-              <p>JESSE BAALMAN   Oct 4, 2019</p>
+            <a href="https://www.columbiamissourian.com/special_section/homecoming/tri-directors-busy-with-homecoming-prep/article_25a60b40-d4d3-11e9-ac91-1f99a2d4dc34.html" target="_blank">
+              <div>
+                <img src="tridirectors.jpg" alt="tridirectors image" class="responsive"/>
+              </div>
+              <div class="media-body-2">
+                <a href="https://www.columbiamissourian.com/special_section/homecoming/tri-directors-busy-with-homecoming-prep/article_25a60b40-d4d3-11e9-ac91-1f99a2d4dc34.html" target="_blank"><h4>Tri-directors busy with Homecoming prep</h4></a>
+                <p>BY JESSE BAALMAN    <br/>    Oct 4, 2019</p>
               <p>Homecoming tri-directors oversee several committees that work on events such as the blood drive, campus decorations and the parade.</p>
-            </div>
+              </div>
+            </a>
           </div>
           <div class="item-3">
-            <img src="hcroyaltycands.png" width="500px"  alt="homecoming royalty candidates image"/>
-            <div class="media-body-3">
-              <a href="https://www.columbiamissourian.com/special_section/homecoming/meet-the-homecoming-royalty-candidates-for/article_9f75bed2-dfb1-11e9-8dad-3ba4ef4528f2.html" target="_blank"><h5>Meet the 10 Homecoming royalty candidates for 2019</h5></a>
-              <p>BY HANNAH KIRCHWEHM   Oct 4, 2019</p>
-              <p>The seniors will leave MU with degrees in Arts and Science, Journalism, Health, Education, Agriculture and more.</p>
-            </div>
+            <a href="https://www.columbiamissourian.com/special_section/homecoming/meet-the-homecoming-royalty-candidates-for/article_9f75bed2-dfb1-11e9-8dad-3ba4ef4528f2.html" target="_blank">
+              <div>
+                <img src="hcroyaltycands.png" alt="homecoming royalty candidates image" class="responsive"/>
+              </div>
+              <div class="media-body-3">
+                <a href="https://www.columbiamissourian.com/special_section/homecoming/meet-the-homecoming-royalty-candidates-for/article_9f75bed2-dfb1-11e9-8dad-3ba4ef4528f2.html" target="_blank"><h5>Meet the 10 Homecoming royalty candidates for 2019</h5></a>
+                <p>BY HANNAH KIRCHWEHM    <br/>    Oct 4, 2019</p>
+                <p>The seniors will leave MU with degrees in Arts and Science, Journalism, Health, Education, Agriculture and more.</p>
+              </div>
+            </a>
           </div>
           <div class="item-4">
-            <img src="urbancoyotesband.jpg" width="500px" alt="Urban Coyotes band image"/>
-            <div class="media-body-4">
-              <a href="https://www.columbiamissourian.com/special_section/homecoming/meet-the-urban-coyotes-a-band-of-geographers-at-mizzou/article_cf8425b0-e3a7-11e9-b4da-8f6e91a224d9.html" target="_blank"><h6>Meet the Urban Coyotes - a band of geographers at Mizzou</h6></a>
-              <p>By Anna S. Peterson   Oct 4, 2019</p>
-              <p>The Urban Coyotes, a band assembled by members of the MU Geography Department, will perform during a Homecoming tailgate.</p>
-            </div>
+            <a href="https://www.columbiamissourian.com/special_section/homecoming/meet-the-urban-coyotes-a-band-of-geographers-at-mizzou/article_cf8425b0-e3a7-11e9-b4da-8f6e91a224d9.html" target="_blank">
+              <div>
+                <img src="urbancoyotesband.jpg" alt="Urban Coyotes band image" class="responsive"/>
+              </div>
+              <div class="media-body-4">
+                <a href="https://www.columbiamissourian.com/special_section/homecoming/meet-the-urban-coyotes-a-band-of-geographers-at-mizzou/article_cf8425b0-e3a7-11e9-b4da-8f6e91a224d9.html" target="_blank"><h6>Meet the Urban Coyotes - a band of geographers at Mizzou</h6></a>
+                <p>BY ANNA S. PETERSON    <br/>    Oct 4, 2019</p>
+                <p>The Urban Coyotes, a band assembled by members of the MU Geography Department, will perform during a Homecoming tailgate.</p>
+              </div>
+            </a>
           </div>
         </div>
-        <div class="sidebar">
+        <div class="sidebar-1">
           <ul>
             <li class="flex-item-3">An ad will go here</li>
             <li class="flex-item-4">Another ad will go here</li>
           </ul>
         </div>
+        <div class="sidebar-2">
+          <ul>
+            <li class="flex-item-1"><a href="calendar.html" target="_blank"><img src="calendarimage.png" width="200" height="200" alt="calendar icon" /></a>Full Events Calendar</li>
+            <li class="flex-item-2"><a href="map.html" target="_blank"><img src="mapicon2.png" width="200" height="200" alt="map icon" /></a>Parade Route Map</li>
+          </ul>
+        </div>
       </div>
-</div>
-</body>
 
-<div class="footer">
-  <ul>
-    <li class="flex-item-1"><a href="calendar.html" target="_blank"><img src="calendarimage.png" width="200px" height="200px" alt="calendar icon" class="center"/></a>Full Events Calendar</li>
-    <li class="flex-item-2"><a href="map.html" target="_blank"><img src="mapicon2.png" width="200px" height="200px" alt="map icon" class]"center"/></a>Parade Route Map</li>
-  </ul>
-</div>
+      <div class="footer">
+        <p> Content copyright &copy; 2020 Columbia Missourian.</p>
+      </div>
+</body>
 
 </html>
