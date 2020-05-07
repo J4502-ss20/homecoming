@@ -113,6 +113,7 @@ nav {
 
 .ribbon {
   width: 150px;
+  margin-right: 20px;
 }
 
 .section-1 {
@@ -482,8 +483,4 @@ h7 {
 
   }
 
-}
-
-.ribbon{
-  width: 150px;
 }
